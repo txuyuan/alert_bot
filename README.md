@@ -12,3 +12,10 @@ Example:
 `curl -X POST http://localhost:8080/alert -H "Content-Type: application/json" -d '{"program": "backup", "message": "Backup completed"}'`
 
 Authorized telegram users are stored in `authorized_users.txt`. See `@userinfobot` for your user id
+
+## Compatibility & Packages
+
+Packages found in requirements.txt
+
+Tested working with python 3.10
+Tested not working with python 3.14
