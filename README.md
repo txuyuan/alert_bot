@@ -18,4 +18,5 @@ Authorized telegram users are stored in `authorized_users.txt`. See `@userinfobo
 Packages found in requirements.txt
 
 Tested working with python 3.10
+
 Tested not working with python 3.14
