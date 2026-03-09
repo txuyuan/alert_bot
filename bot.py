@@ -130,8 +130,8 @@ Uptime: {subprocess.run(["uptime"], capture_output=True).stdout.decode('utf-8')}
         """Asynchronous method that actually sends the messages."""
         alert_message = f"""
 ⚠️ *Server Alert*
-*Program:* [{program}]
-*Time:* {timestamp}
+*Program:* `{program}`
+*Time:* `{timestamp}`
 
 ```alert
 {message}
