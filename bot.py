@@ -133,7 +133,9 @@ Uptime: {subprocess.run(["uptime"], capture_output=True).stdout.decode('utf-8')}
 *Program:* [{program}]
 *Time:* {timestamp}
 
+```alert
 {message}
+```
         """
         success_count = 0
         for user_id in self.authorized_users:
